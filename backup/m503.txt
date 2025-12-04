@@ -1,0 +1,66 @@
+; this is an output of M503 executed on the printer BEFORE any changes
+Printer is now online.
+echo: 3.14.1-8237_74a577bc0
+MMU is Off
+SpoolJoin is Off
+echo: Last Updated: 2024-09-24 14:54:47 | Author: prusa3d
+echo: Free Memory: 2510  PlannerBufferBytes: 1760
+echo:Stored settings retrieved
+adc_init
+Hotend fan type:
+NOCTUA
+CrashDetect ENABLED!
+Sending 0xFF
+echo:SD card ok
+//action:dump_available
+>>> m503
+SENDING:M503
+echo:Steps per unit:
+echo:  M92 X100.00 Y100.00 Z400.00 E280.00
+echo:UStep resolution:
+echo: M350 X16 Y16 Z16 E32
+echo:Maximum feedrates - normal (mm/s):
+echo:  M203 X200.00 Y200.00 Z12.00 E120.00
+echo:Maximum feedrates - stealth (mm/s):
+echo:  M203 X100.00 Y100.00 Z12.00 E120.00
+echo:Maximum acceleration - normal (mm/s2):
+echo:  M201 X1000 Y1000 Z200 E5000
+echo:Maximum acceleration - stealth (mm/s2):
+echo:  M201 X960 Y960 Z200 E5000
+echo:Acceleration: P=print, R=retract, T=travel
+echo:  M204 P800.00 R1250.00 T800.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (us), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X8.00 Y8.00 Z0.40 E4.50
+echo:Home offset (mm):
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:PID settings:
+echo:   M301 P13.48 I1.05 D43.23
+echo:PID heatbed settings:
+echo:   M304 P126.13 I4.30 D924.76
+echo:Retract: S=Length (mm) F:Speed (mm/m) Z: ZLift (mm)
+echo:   M207 S3.00 F2700.00 Z0.00
+echo:Recover: S=Extra length (mm) F:Speed (mm/m)
+echo:   M208 S0.00 F480.00
+echo:Auto-Retract: S=0 to disable, 1 to interpret extrude-only moves as retracts or recoveries
+echo:   M209 S0
+echo:Filament settings: Disabled
+echo:Arc Settings: P:Max length(mm) S:Min length (mm) N:Corrections R:Min segments F:Segments/sec.
+echo:  M214 P1.00 S0.50 N25 R20 F0
+echo:Thermal Model settings:
+echo:  M310 I0 R22.19
+echo:  M310 I1 R20.01
+echo:  M310 I2 R17.83
+echo:  M310 I3 R13.48
+echo:  M310 I4 R12.71
+echo:  M310 I5 R11.93
+echo:  M310 I6 R11.16
+echo:  M310 I7 R10.38
+echo:  M310 I8 R10.11
+echo:  M310 I9 R9.83
+echo:  M310 I10 R9.56
+echo:  M310 I11 R9.28
+echo:  M310 I12 R9.08
+echo:  M310 I13 R8.87
+echo:  M310 I14 R8.67
+echo:  M310 I15 R8.47
+echo:  M310 P38.00 U0.0000 V1.00 C12.40 D0.0650 L2160 S1 B1 E1.74 W1.20 T-7.00
