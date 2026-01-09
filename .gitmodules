@@ -1,0 +1,3 @@
+[submodule "prusa-config"]
+	path = prusa-config
+	url = https://github.com/knpromat/prusa-config
