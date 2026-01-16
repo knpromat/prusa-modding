@@ -44,6 +44,13 @@ Następnie:
 
 Przy pomocy `1` możemy wrzucić pliki GCode.
 
+### Metoda 2 - przez portUSB na malince
+1. Należy wpiąć pendrive lub czytnik kart SD do malinki
+2. Pliki w ten sposób pokażą się w folderze `external_storage`
+
+> [!important]
+> Pliki przesłane w ten sposób **NIE** zostaną przesłane i nie należy wyciągać pendrive aż do momentu zakończenia druku.
+
 ## Aktualizacja profilu w prusa-slicer
 Ponieważ używamy klippera, musimy zaktualizować profil drukarki w prusa-slicerze. Najnowszy profil znajduje się [tutaj](./end-user-config/prusa_mk3s+_klipper.ini).
 
@@ -67,4 +74,3 @@ Na ekranie wybieramy Print -> <nazwa pliku> -> Print
 - [ ] podpiąć rpi do sieci
 - [ ] dodać możliwość uploadów gcode bezpośrednio ze slicera
 - [ ] dać issue do https://github.com/xbst/KUSBA/blob/main/Docs/v2-Firmware.md o koniecznośći zmiany docelowego mikrokontrolera w nowym klipperze
-- [ ] dodać możliwość druku plików z pendrive wpinanego do rpi
