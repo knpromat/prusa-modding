@@ -44,7 +44,7 @@ Następnie:
 
 Przy pomocy `1` możemy wrzucić pliki GCode.
 
-### Metoda 2 - przez portUSB na malince
+### Metoda 2 - przez port USB na malince
 1. Należy wpiąć pendrive lub czytnik kart SD do malinki
 2. Pliki w ten sposób pokażą się w folderze `external_storage`
 
