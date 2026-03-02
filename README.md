@@ -51,10 +51,36 @@ Przy pomocy `1` możemy wrzucić pliki GCode.
 > [!important]
 > Pliki przesłane w ten sposób **NIE** zostaną przesłane i nie należy wyciągać pendrive aż do momentu zakończenia druku.
 
-## Aktualizacja profilu w prusa-slicer
+## Obsługiwane slicer'y
+
+> [!note]
+> obecnie development prowadzimy na Orca Slicer. Config do Prusa Slicer nie był ostatnio aktualizowany i wymaga sprawdzania.
+
+<details><summary>Orca SLicer</summary>
+
+### Instalacja i wstępna konfiguracja Orca SLicer
+
+1. Pobierz Orca Slicer: https://orca-slicer.com/
+2. Uruchom program
+3. Pobierz [plik konfiguracyjny](./end-user-config/orca_slicer/PROMAT - Prusa MK3S+ Klipper.orca_printer)
+4. zaimportuj konfiguracje do Orca SLicer (File -> Import -> )
+
+![import config](./doc/orca_import.png)
+
+</details>
+
+</details><summary>Prusa Slicer</summary>
+
+### Aktualizacja profilu w prusa-slicer
+
+> [!warning]
+> sprawdzić temperatury!
+
 Ponieważ używamy klippera, musimy zaktualizować profil drukarki w prusa-slicerze. Najnowszy profil znajduje się [tutaj](./end-user-config/prusa_mk3s+_klipper.ini).
 
 ![How to update the profile](./doc/profile-update.png)
+
+</details>
 
 ## Uruchamianie wydruków
 
