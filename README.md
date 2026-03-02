@@ -63,7 +63,7 @@ Przy pomocy `1` możemy wrzucić pliki GCode.
 1. Pobierz Orca Slicer: https://orca-slicer.com/
 2. Uruchom program
 3. Pobierz [plik konfiguracyjny](./end-user-config/orca_slicer/PROMAT - Prusa MK3S+ Klipper.orca_printer)
-4. zaimportuj konfiguracje do Orca SLicer (File -> Import -> )
+4. zaimportuj konfiguracje do Orca SLicer (File -> Import -> Import Configs)
 
 ![import config](./doc/orca_import.png)
 
