@@ -69,7 +69,7 @@ Przy pomocy `1` możemy wrzucić pliki GCode.
 
 </details>
 
-</details><summary>Prusa Slicer</summary>
+<details><summary>Prusa Slicer</summary>
 
 ### Aktualizacja profilu w prusa-slicer
 
