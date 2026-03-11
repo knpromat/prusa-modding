@@ -56,7 +56,7 @@ Przy pomocy `1` możemy wrzucić pliki GCode.
 > [!note]
 > obecnie development prowadzimy na Orca Slicer. Config do Prusa Slicer nie był ostatnio aktualizowany i wymaga sprawdzania.
 
-<details><summary>Orca SLicer</summary>
+<details><summary>Orca Slicer</summary>
 
 ### Instalacja i wstępna konfiguracja Orca SLicer
 
