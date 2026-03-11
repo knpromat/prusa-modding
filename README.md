@@ -69,6 +69,8 @@ Przy pomocy `1` możemy wrzucić pliki GCode.
 
 </details>
 
+
+<!--
 <details><summary>Prusa Slicer</summary>
 
 ### Aktualizacja profilu w prusa-slicer
@@ -81,6 +83,7 @@ Ponieważ używamy klippera, musimy zaktualizować profil drukarki w prusa-slice
 ![How to update the profile](./doc/profile-update.png)
 
 </details>
+-->
 
 ## Uruchamianie wydruków
 
